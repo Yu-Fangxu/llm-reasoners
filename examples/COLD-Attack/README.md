@@ -14,7 +14,7 @@ The controllability enabled by COLD-Attack leads to diverse new jailbreak scenar
 To run COLD-Attack on Advbench datasets, simply using:
 
 ```
-python examples/COLD-Attack/inference.py
+CUDA_VISIBLE_DEVICES=0 python examples/COLD-Attack/inference.py
 ```
 
 ## Reference
